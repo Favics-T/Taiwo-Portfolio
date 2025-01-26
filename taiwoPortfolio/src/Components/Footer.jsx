@@ -4,8 +4,8 @@ import React from "react";
 function Footer(){
 
     return(
-        <div>
-            <h2>Footer</h2>
+        <div className="py-20 px-20 bg-[#010625]">
+            
         </div>
     )
 

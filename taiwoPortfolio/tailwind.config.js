@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily:{
         bodyFont: 'Roboto'
+      },
+      backgroundColor:{
+        background: "rgb(15,15,15 )"
       }
     },
   },

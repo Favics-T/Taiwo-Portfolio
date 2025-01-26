@@ -3,3 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer Components{
+    .about{
+        @apply  font-bold p-4 
+    }
+
+    .lists {
+        @apply hover:underline underline-offset-4 cursor-pointer
+    }
+    .para{
+        @apply font-thin text-[18px]
+    }
+    .div{
+        @apply bg-white py-4 mx-10 border-b border-black 
+    }
+}
